@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --bg-button: #f0f0f0;
+  --border-button: solid 1px #888;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
